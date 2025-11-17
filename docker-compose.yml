@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  api-service:
+    build:
+      context: .
+      dockerfile: ./SportsTriviaAPI/Dockerfile
+    container_name: sportstrivia-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Production"
+      ASPNETCORE_URLS: "http://+:8080"
+    ports:
+      - "8080:8080"   # host:container
+
+

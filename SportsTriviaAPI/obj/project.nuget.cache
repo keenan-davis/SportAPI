@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "L7z9yvuAcAc=",
+  "dgSpecHash": "K88usx6N5OA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Keenan\\source\\repos\\SportsTriviaAPI\\SportsTriviaAPI\\SportsTriviaAPI.csproj",
+  "projectFilePath": "C:\\Users\\Keenan\\OneDrive\\Documents\\GitHub\\SportAPI\\SportsTriviaAPI\\SportsTriviaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Keenan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Keenan\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\Keenan\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512",
     "C:\\Users\\Keenan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "C:\\Users\\Keenan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "C:\\Users\\Keenan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",

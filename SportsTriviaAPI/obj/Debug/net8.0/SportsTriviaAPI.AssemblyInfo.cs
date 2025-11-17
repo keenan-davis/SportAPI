@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("6e6bd356-8514-447b-912c-83a40221ce9b")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SportsTriviaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a75edc35ea0d267dcc3c9452f2294c7a07b66f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SportsTriviaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SportsTriviaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

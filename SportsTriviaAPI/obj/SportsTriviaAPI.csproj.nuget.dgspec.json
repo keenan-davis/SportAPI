@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Keenan\\source\\repos\\SportsTriviaAPI\\SportsTriviaAPI\\SportsTriviaAPI.csproj": {}
+    "C:\\Users\\Keenan\\OneDrive\\Documents\\GitHub\\SportAPI\\SportsTriviaAPI\\SportsTriviaAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Keenan\\source\\repos\\SportsTriviaAPI\\SportsTriviaAPI\\SportsTriviaAPI.csproj": {
+    "C:\\Users\\Keenan\\OneDrive\\Documents\\GitHub\\SportAPI\\SportsTriviaAPI\\SportsTriviaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Keenan\\source\\repos\\SportsTriviaAPI\\SportsTriviaAPI\\SportsTriviaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Keenan\\OneDrive\\Documents\\GitHub\\SportAPI\\SportsTriviaAPI\\SportsTriviaAPI.csproj",
         "projectName": "SportsTriviaAPI",
-        "projectPath": "C:\\Users\\Keenan\\source\\repos\\SportsTriviaAPI\\SportsTriviaAPI\\SportsTriviaAPI.csproj",
+        "projectPath": "C:\\Users\\Keenan\\OneDrive\\Documents\\GitHub\\SportAPI\\SportsTriviaAPI\\SportsTriviaAPI.csproj",
         "packagesPath": "C:\\Users\\Keenan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Keenan\\source\\repos\\SportsTriviaAPI\\SportsTriviaAPI\\obj\\",
+        "outputPath": "C:\\Users\\Keenan\\OneDrive\\Documents\\GitHub\\SportAPI\\SportsTriviaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.23.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"

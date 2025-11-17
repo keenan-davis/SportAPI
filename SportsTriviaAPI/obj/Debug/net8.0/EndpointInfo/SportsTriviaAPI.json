@@ -273,6 +273,18 @@
         }
       }
     },
+    "/api/Sports": {
+      "get": {
+        "tags": [
+          "Sports"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [

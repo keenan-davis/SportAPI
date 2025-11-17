@@ -155,6 +155,16 @@
     ]
   },
   {
+    "ContainingType": "SportsQuizAPI.Controllers.SportsController",
+    "Method": "GetAllSports",
+    "RelativePath": "api/Sports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SportsTriviaAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
