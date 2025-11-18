@@ -1,6 +1,6 @@
 # SportTriviaAPI 
 ## Overview
-SportTriviaAPI is a simple Kotlin class that manages a list of sports.
+SportTriviaAPI is a C# API that manages a list of sports.
 It allows you to:
 - Add new sports
 - Remove sports
