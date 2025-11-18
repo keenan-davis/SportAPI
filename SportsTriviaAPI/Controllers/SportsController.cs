@@ -6,13 +6,12 @@ namespace SportsQuizAPI.Controllers
     [Route("api/[controller]")]
     public class SportsController : ControllerBase
     {
-        // List of supported sports for dropdowns / selection menus
         private static readonly List<string> Sports = new()
         {
-            "Soccer",
+            "Football",
             "Formula 1",
             "MotoGP",
-            "Endurance",
+            "Endurance Racing",
             "Tennis",
             "Basketball",
             "Baseball",
@@ -23,7 +22,6 @@ namespace SportsQuizAPI.Controllers
         [HttpGet]
         public IActionResult GetAllSports()
         {
-            // Return sports plus helpful endpoints for the Android app
             var response = Sports.Select(sport => new
             {
                 Name = sport,

@@ -81,7 +81,6 @@ namespace SportsTriviaAPI.Controllers
             });
         }
         // POST: api/questions/game
-        // Simulate a quiz session: request category, difficulty, number of questions, and optional answers
         [HttpPost("game")]
         public ActionResult<GameResult> PlayGame([FromBody] GameRequest request)
         {
@@ -104,7 +103,6 @@ namespace SportsTriviaAPI.Controllers
 
             int score = 0;
 
-            // Evaluate answers if provided
             if (request.Answers != null && request.Answers.Any())
             {
                 foreach (var answer in request.Answers)
